@@ -1,27 +1,55 @@
-# LibrosFront
+# Libros Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+Este es el proyecto frontend de la aplicación **Libros**, construido con Angular. Esta aplicación permite gestionar libros y otras funcionalidades relacionadas.
 
-## Development server
+## 🚀 Comenzando
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
-## Code scaffolding
+### 📋 Prerrequisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Asegúrate de tener instalado lo siguiente:
 
-## Build
+- **Node.js** (v14 o superior) y **NPM** (Node Package Manager)
+  - Puedes descargar Node.js desde [nodejs.org](https://nodejs.org/).
+- **Angular CLI** (Command Line Interface) globalmente en tu máquina.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Para instalar Angular CLI, ejecuta el siguiente comando en tu terminal:
 
-## Running unit tests
+```bash
+npm install -g @angular/cli
+Clona el repositorio:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+bash
+Copiar código
+git clone https://github.com/juan1214s/libros_front.git
+Navega a la carpeta del proyecto:
 
-## Running end-to-end tests
+bash
+Copiar código
+cd libros_front
+Instala las dependencias del proyecto:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+bash
+Copiar código
+npm install
+📦 Compilación y ejecución del proyecto
+Para iniciar el proyecto en un servidor de desarrollo local:
 
-## Further help
+bash
+Copiar código
+ng serve
+Luego, abre tu navegador y visita http://localhost:4200/ para ver la aplicación en funcionamiento.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+🚀 Compilación para producción
+Para construir el proyecto en modo producción:
+
+bash
+Copiar código
+ng build --prod
+Los archivos compilados estarán en la carpeta dist/.
+
+🛠️ Herramientas y tecnologías utilizadas
+Angular - Framework web para construir aplicaciones de una sola página.
+TypeScript - Lenguaje de programación utilizado en Angular.
+RxJS - Biblioteca para la programación reactiva.
